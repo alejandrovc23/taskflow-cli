@@ -1,0 +1,9 @@
+{
+  "name": "taskflow-cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "build": "tsc", "start": "node dist/cli.js" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "~5.9.3" }
+}
